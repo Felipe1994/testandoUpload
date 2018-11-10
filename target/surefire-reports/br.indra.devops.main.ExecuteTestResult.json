@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "First Access",
+        "description": "",
+        "id": "landpage;first-access",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39269159239,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the land page is loaded",
+            "match": {
+              "location": "XpInvestimentsSteps.the_land_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79059188,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I scroll the page",
+            "match": {
+              "location": "XpInvestimentsSteps.i_scroll_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3488037151,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I can see all the panels",
+            "match": {
+              "location": "XpInvestimentsSteps.i_can_see_all_the_panels()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Landpage",
+    "description": "",
+    "id": "landpage",
+    "keyword": "Feature",
+    "uri": "XpInvestiments.feature"
+  }
+]
